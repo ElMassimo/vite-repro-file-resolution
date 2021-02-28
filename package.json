@@ -1,0 +1,13 @@
+{
+  "name": "vite-ruby-assets",
+  "private": true,
+  "dependencies": {
+    "@rails/ujs": "^6.0.0",
+    "turbolinks": "^5.2.0"
+  },
+  "version": "0.1.0",
+  "devDependencies": {
+    "vite": "^2.0.3",
+    "vite-plugin-ruby": "^1.0.13"
+  }
+}
