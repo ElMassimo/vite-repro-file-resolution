@@ -1,13 +1,12 @@
 <template>
   <h1>Vite Ruby assets issue</h1>
-  <HelloWorld msg="Counter component" />
-  <br>
-  <img src="./images/logo.png" alt="Vue logo">
-  <img src="@/images/logo.png" alt="Vue logo @ alias">
-  <img :src="vueLogo" alt="Vue logo import">
-</template>
+  <div style="padding-top:1em;">
+    <p>Import image from /frontend/images/:</p>
+    <img src="@/images/vite_ruby.svg" alt="Vue Ruby logo">
+  </div>
 
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import vueLogo from './images/logo.png'
-</script>
+  <div style="padding-top:1em;">
+    <p>Import image from /frontend/entrypoints/images/:</p>
+    <img src="@/entrypoints/images/logo.png" alt="Vue logo">
+  </div>
+</template>
