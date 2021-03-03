@@ -8,3 +8,8 @@ h2 {
   color: #2e4963;
   font-size: 1.5rem;
 }
+
+body {
+  margin: 0 auto;
+  text-align: center;
+}
